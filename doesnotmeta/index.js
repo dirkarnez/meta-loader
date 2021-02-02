@@ -1,5 +1,4 @@
 module.exports = function(source, map) {
-    console.log("DoesNotMetaPlugin says hello world!");
-    
-    return `module.exports = "${eval(source)}"`;
-};
+    const evaluated = eval(source);
+    return `module.exports = ${JSON.stringify(evaluated)}`;
+}

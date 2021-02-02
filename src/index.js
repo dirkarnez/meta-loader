@@ -1,4 +1,7 @@
-const stringValue = require("./lookup.metajs")
+const factorial = require("./factorial.metajs")
+console.log(factorial, "should be", 120);
 
-console.log("hello world!");
-console.log(stringValue, typeof stringValue);
+
+const lookup = require("./lookup.metajs")
+console.log(lookup[8][5], "should be", 40);
+
