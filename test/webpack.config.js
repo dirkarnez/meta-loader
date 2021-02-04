@@ -10,7 +10,7 @@ module.exports = {
               test: /\.metajs$/i,
               use: [
                 {
-                    loader: resolve(__dirname, "doesnotmeta") + "/index.js"
+                    loader: resolve(__dirname, "..") + "/index.js"
                 },
               ],
               exclude: /node_modules/,
