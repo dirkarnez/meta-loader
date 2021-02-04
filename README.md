@@ -1,3 +1,3 @@
 meta-loader
 ===========
-An attempt to achieve compile-time metaprogramming with the use of webpack
+A webpack loader to achieve transpile-time metaprogramming
