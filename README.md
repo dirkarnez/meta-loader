@@ -15,3 +15,4 @@ A webpack loader to achieve transpile-time metaprogramming.
 ### Reference
 - [ExPixel/vscode-eval: VSCode extension to evaluate selected text.](https://github.com/ExPixel/vscode-eval)
 - [eval - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Stormspirit.eval)
+- [List of languages that compile to JS · jashkenas/coffeescript Wiki](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)
