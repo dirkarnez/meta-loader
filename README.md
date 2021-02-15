@@ -3,7 +3,7 @@ meta-loader
 A webpack loader to achieve transpile-time metaprogramming.
 
 ### TODO
-- [ ] operator overloading, syntactic sugar (much like a DSL?)
+- [ ] operator overloading, syntactic sugar, short-hand (much like a DSL?)
   - `matrixA + matrixB = matrixC`
 - [ ] transpile-time evaluation
 - [ ] safe-programming (number-safe)
