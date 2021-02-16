@@ -6,16 +6,18 @@ A webpack loader to achieve transpile-time metaprogramming.
 - [ ] Seamless bridge to TypeScript
   - [ ] .d.ts generation
 - [ ] operator overloading, syntactic sugar, short-hand, intentional, declarative,  programming (much like a DSL?)
-  - `matrixA + matrixB = matrixC`
-  - compile-time types
-  - compile-time code elimination
-    - Build variant
+  - safe-programming
+    - static libraries
+      - number-safe
+        - `0.1 + 0.2` should be `0.3`, not `0.30000000000000004`
+          - [ericelliott/moneysafe: Convenient, safe money calculations in JS](https://github.com/ericelliott/moneysafe)
+      - compile-time wrapper
+      - transpile-time types
+      - `matrixA + matrixB = matrixC`
+    - transpile-time code elimination
+      - Build variant
 - [ ] As a test-case like constraint in code 
 - [ ] transpile-time evaluation
-- [ ] safe-programming (number-safe)
-  - `0.1 + 0.2` should be `0.3`, not `0.30000000000000004`
-    - [ericelliott/moneysafe: Convenient, safe money calculations in JS](https://github.com/ericelliott/moneysafe)
-    - compile-time wrapper
 - [ ] reduce overhead (inline functions, compile-time wrapper, etc...)
 
 ### Reference
