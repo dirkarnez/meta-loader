@@ -11,6 +11,7 @@ A webpack loader to achieve transpile-time metaprogramming.
       - number-safe
         - `0.1 + 0.2` should be `0.3`, not `0.30000000000000004`
           - [ericelliott/moneysafe: Convenient, safe money calculations in JS](https://github.com/ericelliott/moneysafe)
+      - markdown or any other markup languages as syntactic sugar
       - compile-time wrapper
       - transpile-time types
       - `matrixA + matrixB = matrixC`
