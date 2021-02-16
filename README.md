@@ -5,7 +5,7 @@ A webpack loader to achieve transpile-time metaprogramming.
 ### TODO
 - [ ] Seamless bridge to TypeScript
   - [ ] .d.ts generation
-- [ ] operator overloading, syntactic sugar, short-hand, intentional, declarative,  programming (much like a DSL?)
+- [ ] operator overloading, syntactic sugar, short-hand, intentional, declarative programming (much like a DSL?)
   - safe-programming
     - static libraries
       - number-safe
@@ -16,7 +16,8 @@ A webpack loader to achieve transpile-time metaprogramming.
       - `matrixA + matrixB = matrixC`
     - transpile-time code elimination
       - Build variant
-- [ ] As a test-case like constraint in code 
+- [ ] As a test-case like constraint in code
+  - However, different to test cases, test cases simulates user action and check the outcomes, constraints statically check if program flow is robust
 - [ ] transpile-time evaluation
 - [ ] reduce overhead (inline functions, compile-time wrapper, etc...)
 
