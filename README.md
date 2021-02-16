@@ -17,6 +17,7 @@ A webpack loader to achieve transpile-time metaprogramming.
     - transpile-time code elimination
       - Build variant
 - [ ] As a test-case like constraint in code
+  - Much like an assertion
   - However, different to test cases, test cases simulates user action and check the outcomes, constraints statically check if program flow is robust
 - [ ] transpile-time evaluation
 - [ ] reduce overhead (inline functions, compile-time wrapper, etc...)
