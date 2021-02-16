@@ -7,6 +7,8 @@ A webpack loader to achieve transpile-time metaprogramming.
 - [ ] operator overloading, syntactic sugar, short-hand, intentional, declarative,  programming (much like a DSL?)
   - `matrixA + matrixB = matrixC`
   - compile-time types
+  - compile-time code elimination
+    - Build variant
 - [ ] As a test-case like constraint in code 
 - [ ] transpile-time evaluation
 - [ ] safe-programming (number-safe)
