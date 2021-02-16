@@ -4,8 +4,9 @@ A webpack loader to achieve transpile-time metaprogramming.
 
 ### TODO
 - [ ] Seamless bridge to TypeScript
-- [ ] operator overloading, syntactic sugar, short-hand, intentional programming (much like a DSL?)
+- [ ] operator overloading, syntactic sugar, short-hand, intentional, declarative,  programming (much like a DSL?)
   - `matrixA + matrixB = matrixC`
+- [ ] As a test-case like constraint in code 
 - [ ] transpile-time evaluation
 - [ ] safe-programming (number-safe)
   - `0.1 + 0.2` should be `0.3`, not `0.30000000000000004`
