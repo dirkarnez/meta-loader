@@ -4,6 +4,7 @@ A webpack loader to achieve transpile-time metaprogramming.
 
 ### TODO
 - [ ] Seamless bridge to TypeScript
+  - [ ] .d.ts generation
 - [ ] operator overloading, syntactic sugar, short-hand, intentional, declarative,  programming (much like a DSL?)
   - `matrixA + matrixB = matrixC`
   - compile-time types
