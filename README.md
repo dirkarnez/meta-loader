@@ -24,7 +24,12 @@ A webpack loader to achieve transpile-time metaprogramming.
 - [ ] transpile-time evaluation
 - [ ] reduce overhead (inline functions, compile-time wrapper, etc...)
   - **erase functions / lambdas / closures**
-
+  - refer to the optimizations the V8 engine does
+    - [High Performance JS in V8 - YouTube](https://www.youtube.com/watch?v=YqOhBezMx1o)
+- [ ] Never try to do spaghetti code pattern
+  - treat `.metajs` and normal `.js` separately
+  - ultimate goal is to move all `.js` code to `.metajs`
+  
 ### Reference
 - [ExPixel/vscode-eval: VSCode extension to evaluate selected text.](https://github.com/ExPixel/vscode-eval)
 - [eval - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Stormspirit.eval)
