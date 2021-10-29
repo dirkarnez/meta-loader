@@ -22,6 +22,7 @@ A webpack loader to achieve transpile-time metaprogramming.
   - However, different to test cases, test cases simulates user action and check the outcomes, constraints statically check if program flow is robust
 - [ ] transpile-time evaluation
 - [ ] reduce overhead (inline functions, compile-time wrapper, etc...)
+  - **erase functions / lambdas / closures**
 
 ### Reference
 - [ExPixel/vscode-eval: VSCode extension to evaluate selected text.](https://github.com/ExPixel/vscode-eval)
