@@ -15,6 +15,7 @@ A webpack loader to achieve transpile-time metaprogramming.
       - compile-time wrapper
       - transpile-time types
       - `matrixA + matrixB = matrixC`
+    - polyfills
     - transpile-time code elimination
       - Build variant
 - [ ] As a test-case like constraint in code
