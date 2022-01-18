@@ -2,6 +2,9 @@ meta-loader
 ===========
 A webpack loader to achieve transpile-time metaprogramming with pure JavaScript
 
+### Playground
+- [dirkarnez/acorn-playground](https://github.com/dirkarnez/acorn-playground)
+
 ### TODO
 - [ ] Seamless bridge to TypeScript
   - [ ] .d.ts generation
